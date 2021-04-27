@@ -1,0 +1,68 @@
+
+@font-face {
+  font-family: GlyphWorld;
+  src: url(fonts/GlyphWorld-Meadow.otf);
+}
+
+body {
+  position:relative;
+
+
+}
+
+b{
+
+
+}
+
+#text{
+  
+  font-size:40px;
+  font-family: GlyphWorld;
+  line-height: 30px;
+  color:black;
+  align-items: center;
+
+}
+
+.title{
+    position: relative;
+    left: 435px;
+    top: 371px;
+    width: 704px;nter;
+   border-style: solid;
+  border-color: red;
+}
+
+.clear{
+  position: relative;
+  width: 130px;
+  margin: 20px;
+  top: 700px;
+   border-style: solid;
+  border-color: blue;
+}
+
+.shuffle{
+  position: relative;
+  width: 170px;
+  top:600px;
+  left: 1450px;
+  margin: 20px;
+  border-style: solid;
+  border-color: green;
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+
+}
+
+
+::selection {
+  background: none; 
+}
