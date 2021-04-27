@@ -1,11 +1,11 @@
 // Get the element on the page with the id canvas
 let canvas = document.querySelector("#canvas");
-let currentMandela =  document.getElementById("mandela").src;;
+let currentMandala =  document.getElementById("mandala").src;
 
 canvas.addEventListener("click", function (event) {
   console.log("This is the click event");
   console.log(event);
-  let newMandela = document.createElement("div");
-  newMandela.classList.add("mandela");
+  let newMandala = document.createElement("div");
+  newMandala.classList.add("mandala");
 
-  newMandela.innerHTML = currentMandela;
+  newMandala.innerHTML = currentMandala;
