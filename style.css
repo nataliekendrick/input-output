@@ -6,6 +6,7 @@
 
 body {
   position:relative;
+  overflow: none;
 
 
 }
@@ -27,11 +28,12 @@ b{
 
 .title{
     position: relative;
-    left: 435px;
+    left: 364px;
     top: 371px;
-    width: 704px;nter;
+    width: 879px;
    border-style: solid;
   border-color: red;
+  font-size: 50px;
 }
 
 .clear{
