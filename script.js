@@ -15,9 +15,12 @@ let canvas = document.querySelector("#canvas");
 canvas.addEventListener("click", function (event) {
   console.log("clicking the canvas");
 
-  let art = new Array('images/piano.png','images/art2.png','images/blue.png',
+  let art = new Array('images/piano.png','images/blue.png',
                       'images/blue2.png','images/blue3.png','images/blue4.png',
-                      'images/green.png', 'images/green2.png', 'images/green4.png' ); 
+                      'images/green.png', 'images/green2.png', 'images/green4.png',
+                      'images/doodle1.png','images/doodle2.png','images/doodle3.png',
+                      'images/doodle4.png','images/doodle5.png','images/doodle6.png',
+                      'images/doodle7.png','images/doodle8.png','images/doodle9.png' ); 
 
   let currentArt = art[Math.floor(Math.random() * art.length)];
   var divsize = 100;
