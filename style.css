@@ -7,6 +7,8 @@
 body {
   position:relative;
   overflow: none;
+  align-items: center;
+  justify-content: center;
 
 
 }
@@ -37,10 +39,11 @@ b{
     position: relative;
     left: 364px;
     top: 371px;
-    width: 879px;
+    width: 853px;
    border-style: solid;
   border-color: red;
   font-size: 50px;
+
 }
 
 .clear{
@@ -52,6 +55,8 @@ b{
   border-color: blue;
   z-index: 100;
   cursor: pointer;
+
+
 }
 
 .shuffle{

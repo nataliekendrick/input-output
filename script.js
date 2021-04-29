@@ -1,14 +1,3 @@
-// // Get the element on the page with the id canvas
-// let canvas = document.querySelector("#canvas");
-// let currentMandala =  document.getElementById("mandala").src;
-
-// canvas.addEventListener("click", function (event) {
-//   console.log("This is the click event");
-//   console.log(event);
-//   let newMandala = document.createElement("div");
-//   newMandala.classList.add("mandala");
-
-//   newMandala.innerHTML = currentMandala;
 
 let canvas = document.querySelector("#canvas");
 
@@ -28,6 +17,7 @@ canvas.addEventListener("click", function (event) {
   var posy = (Math.random() * window.innerHeight - divsize).toFixed();
 
   imgArray = new Image();
+  imgArray.classList.add("imgArray");
   imgArray.src = currentArt;
 
   imgArray.style.left = posx + "px";
@@ -48,33 +38,17 @@ clearButton.addEventListener("click", function (event) {
 
 let shuffleButton = document.querySelector(".shuffle");
 shuffleButton.addEventListener("click", function (event) {
-
   console.log("clicking the suffle button");
+
+  Array.from(document.querySelectorAll("imgArray")).forEach(function() {
+  this.style.display = "none";
+
+  var posx = Math.floor(Math.random()*300)+"px";
+  var posy = Math.floor(Math.random()*300)+"px";
+  imgArray.style.top = posx + "px";
+  imgArray.style.left = posy + "px";
+
+  canvas.innerHTML = "imgArray ";
 
 
  });
-
-
-
-  /********************
-  TODO: Position the new Art so that it's where the mouse cursor is when you clicked
- *********************
-  Hint: Look up the pageX and pageY property of the event:
-  https://www.w3schools.com/jsref/event_pagex.asp
-  And remember that to position html elements with the "left" and "top" you need to add a unit like "px" at the end!
-   */
-
-  // var x = event.pageX;
-  // var y = event.pageY;
-  // newArt.style.top = y + "px";
-  // newArt.style.left = x + "px";
-
-  // canvas.appendChild(newArt);var x = event.pageX;
-  // var y = event.pageY;
-  // newArt.style.top = y + "px";
-  // newArt.style.left = x + "px";
-
-  // canvas.appendChild(newArt);
-
-
-// });
