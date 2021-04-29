@@ -13,7 +13,7 @@
 let canvas = document.querySelector("#canvas");
 
 canvas.addEventListener("click", function (event) {
-  console.log("This is the click event");
+  console.log("clicking the canvas");
 
   let art = new Array('images/piano.png','images/art2.png','images/blue.png',
                       'images/blue2.png','images/blue3.png','images/blue4.png',
@@ -35,13 +35,19 @@ canvas.addEventListener("click", function (event) {
   canvas.appendChild(imgArray);
 })
 
-document.addEventListener("click", function (event) {
-  console.log("This is the click event to clear page");
-  console.log(event);
+let clearButton = document.querySelector(".clear");
+clearButton.addEventListener("click", function (event) {
 
-  if (event.click == "clear") {
-    canvas.innerHTML = "clear ";
-  }
+  console.log("clicking the clear button");
+  canvas.innerHTML = " ";
+
+ });
+
+let shuffleButton = document.querySelector(".shuffle");
+clearButton.addEventListener("click", function (event) {
+
+  console.log("clicking the suffle button");
+  
 
  });
 

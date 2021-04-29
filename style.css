@@ -11,6 +11,13 @@ body {
 
 }
 
+img {
+  transition: transform .7s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
+
 b{
 
 
@@ -43,6 +50,7 @@ b{
   top: 700px;
    border-style: solid;
   border-color: blue;
+  z-index: 100;
 }
 
 .shuffle{
@@ -53,6 +61,7 @@ b{
   margin: 20px;
   border-style: solid;
   border-color: green;
+  z-index: 100;
 }
 
 #canvas{
