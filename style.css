@@ -51,6 +51,7 @@ b{
    border-style: solid;
   border-color: blue;
   z-index: 100;
+  cursor: pointer;
 }
 
 .shuffle{
@@ -62,6 +63,7 @@ b{
   border-style: solid;
   border-color: green;
   z-index: 100;
+  cursor: pointer;
 }
 
 #canvas{

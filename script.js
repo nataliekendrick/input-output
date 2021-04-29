@@ -44,10 +44,10 @@ clearButton.addEventListener("click", function (event) {
  });
 
 let shuffleButton = document.querySelector(".shuffle");
-clearButton.addEventListener("click", function (event) {
+shuffleButton.addEventListener("click", function (event) {
 
   console.log("clicking the suffle button");
-  
+  canvas.innerHTML = "currentArt";
 
  });
 
