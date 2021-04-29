@@ -50,7 +50,7 @@ let shuffleButton = document.querySelector(".shuffle");
 shuffleButton.addEventListener("click", function (event) {
 
   console.log("clicking the suffle button");
-  canvas.innerHTML = "currentArt";
+
 
  });
 

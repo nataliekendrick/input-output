@@ -75,7 +75,35 @@ b{
 
 }
 
-
 ::selection {
   background: none; 
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .title{
+    font-size:30px;
+    position: relative;
+    left: 20px;
+    width: 530px;
+  }
+
+  .clear{
+    font-size: 25px;
+    position: relative;
+    width: 100px;
+  }
+
+  .shuffle{
+    font-size: 25px;
+    position: relative;
+    width: 110px;
+    left: 410px;
+  }
+
+
+
+
