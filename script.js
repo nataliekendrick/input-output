@@ -44,8 +44,7 @@ shuffleButton.addEventListener("click", function (event) {
 
   var posx = Math.floor(Math.random()*300)+"px";
   var posy = Math.floor(Math.random()*300)+"px";
-  image.style.top = posx + "px";
-  image.style.left = posy + "px";
+
 })
 
  });
