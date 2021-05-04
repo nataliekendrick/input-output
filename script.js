@@ -36,19 +36,19 @@ clearButton.addEventListener("click", function (event) {
 
  });
 
-let shuffleButton = document.querySelector(".shuffle");
-shuffleButton.addEventListener("click", function (event) {
-  console.log("clicking the suffle button");
+// let shuffleButton = document.querySelector(".shuffle");
+// shuffleButton.addEventListener("click", function (event) {
+//   console.log("clicking the suffle button");
 
-  Array.from(document.querySelectorAll("imgArray")).forEach(function() {
-  this.style.display = "none";
+//   Array.from(document.querySelectorAll("imgArray")).forEach(function() {
+//   this.style.display = "none";
 
-  var posx = Math.floor(Math.random()*300)+"px";
-  var posy = Math.floor(Math.random()*300)+"px";
-  imgArray.style.top = posx + "px";
-  imgArray.style.left = posy + "px";
+//   var posx = Math.floor(Math.random()*300)+"px";
+//   var posy = Math.floor(Math.random()*300)+"px";
+//   imgArray.style.top = posx + "px";
+//   imgArray.style.left = posy + "px";
 
-  canvas.innerHTML = "imgArray ";
+//   canvas.innerHTML = "imgArray ";
 
 
- });
+//  });
